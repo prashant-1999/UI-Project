@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+background-image: url(../images/loginbg.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+}
+
+.container{
+height: 100%;
+align-content: center;
+}
+
+.card{
+height: auto;
+margin-top: auto;
+margin-bottom: auto;
+max-width: 700px;
+padding: 20px;
+color: white;
+background-color: rgba(0,0,0,0.7) !important;
+}
+
+.card-header h3{
+color: white;
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+
+.col-md-6{
+    padding: 10px;
+}
+.col-12{
+    padding-bottom: 15px;
+}
+
+#errorMsg{
+    color: red;
+}

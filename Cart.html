@@ -1,0 +1,90 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cart</title>
+    <script src="./js/toCart.js"></script>
+    <link rel="stylesheet" href="./css/cart.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+  <section class="cart-table">
+    <h1 class="section-title footer-heading"><span>Cart</span> View</h1>
+    <div>
+        <table class="cart-tab">
+        
+            <tr class="table-head">
+                <td>S. No.</td>
+                <td>Item Name</td>
+                <td>Category</td>
+                <td>Rate</td>
+                <td>Quantity</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Fluffy Chair</td>
+                <td>Chairs</td>
+                <td >5999</td>
+                <td ><input id="one"  onchange="giveTotal()" type="number"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Sheesham Wood Sofa</td>
+                <td>Sofas</td>
+                <td >12999</td>
+                <td ><input id="two" onchange="giveTotal()" type="number"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Office Table</td>
+                <td>Table</td>
+                <td >9999</td>
+                <td ><input id="three" onchange="giveTotal()" type="number"></td>
+            </tr>
+        
+    </table>
+
+    </div>
+    <div>
+        <div><input type="button"class="total-btn" value="Total" ></div>
+        <div>
+            <h2> Total Amount is : </h2>
+            <span id="total-amt"></span>
+        </div>
+    </div>
+    
+    
+  </section>
+    
+
+    <section class="footer-section">
+        <h1 class="section-title footer-heading"><span>Contact</span> Us</h1>
+        <div class="footer">
+            <div>
+                <span>Feel free to contact us at :</span>
+            </div>
+            <div class="contacts">
+                <p><img src="./images/call.png" class="contact-icon" alt=""> +91 123 456 8900</p>
+            </div>
+            <div class="contacts">
+                 
+                <p><img src="./images/email.png" class="contact-icon" alt=""> help@bns.com</p>
+            </div>
+        </div>
+        
+            
+        
+    </section>
+
+
+    
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Page</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./js/index.js"></script>
+   
+	<!--Bootsrap 4 CDN-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<!--Custom styles-->
+	<link rel="stylesheet" type="text/css" href="./css/SignUp.css">
+</head>
+<body>
+<div class="container">
+	<div class="d-flex justify-content-center h-100">
+		<div class="card">
+			<div class="card-header">
+				<h3>Register</h3>
+			</div>
+			<div class="card-body">
+				<form class="row g-3" id="form">
+                    <div class="col-md-6">
+                      <label for="inputEmail4" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="inputEmail0" placeholder="enter email" required>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputPassword" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="inputPassword" placeholder="create password" required>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputPassword1" class="form-label">Confirm Password</label>
+                      <input type="password" class="form-control" id="inputPassword1" placeholder="Confirm password" required>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputMobile" class="form-label">Mobile No.</label>
+                      <input type="number" class="form-control" id="inputMobile" placeholder="enter your Mobile" required>
+                    </div> 
+                    <div class="col-md-6">
+                      <label id="errorMsg" for="error" class="form-label"></label>
+                    </div> 
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                          I agree to the terms & conditions
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <input class="btn btn-primary" type="submit"  value="Register" onclick="validReg()">
+                      <!-- <button type="submit" class="btn btn-primary" onclick="validReg()">Register</button> -->
+                    </div>
+                  </form>
+			</div>
+			<div class="card-footer">
+				<div class="d-flex justify-content-center links">
+					Already have an account?<a href="SignIn.html">Login</a>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

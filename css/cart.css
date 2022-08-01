@@ -1,0 +1,36 @@
+
+.cart-table{
+    margin: 80px;
+
+}
+td{
+    border: 1px solid black;
+    width: max-content;
+}
+.table-head{
+    color: white;
+    background-color: rgb(41, 40, 40);
+    font: bold;
+}
+tr:nth-child(even) {
+    background-color: rgb(220, 197, 138);
+}
+table{
+    width: 80%;
+}
+
+td{
+    border-radius: 2px;
+    padding: 5px;
+    padding-left: 10px;
+    height: 40px;
+}
+.total-btn{
+    margin: 20px;
+    background-color: rgb(220, 197, 138);
+    border: none;
+    border-radius: 5px;
+    width: max-content;
+    padding: 10px;
+    font-size: 25px;
+}
