@@ -1,10 +1,10 @@
-var cartItem = {
-    "chairs":[
-        {"Name":"Fluffy Chair", "Price":"5999"},
-        {"firstName":"Anna", "lastName":"Smith"},
-        {"firstName":"Peter", "lastName":"Jones"}
-    ]
-}
+// var cartItem = {
+//     "chairs":[
+//         {"Name":"Fluffy Chair", "Price":"5999"},
+//         {"firstName":"Anna", "lastName":"Smith"},
+//         {"firstName":"Peter", "lastName":"Jones"}
+//     ]
+// }
 
 var rate = [5999,12999,9999]
 // console.log(typeof(rate[0]))
